@@ -1,0 +1,7 @@
+version: 2020-07-10
+type: Remediation
+title: Test monkey play env var
+cloud: AWS
+operation: EXECUTE_PYTHON_SCRIPT
+authorName: Sonrai Security
+authorEmail: peijian.jufo@sonraisecurity.com
