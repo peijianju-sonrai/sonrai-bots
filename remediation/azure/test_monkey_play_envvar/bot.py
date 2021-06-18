@@ -1,5 +1,6 @@
 import logging
 import os
+import time
 
 
 def run(ctx):
@@ -10,6 +11,7 @@ def run(ctx):
     logging.info('Test monkey start')
     for k, v in os.environ.items():
         print(f'{k}={v}')
+    time.sleep(3600*2)
 
     # try:
     #     graphrbac_client.users.get(upn_or_object_id=object_id)
